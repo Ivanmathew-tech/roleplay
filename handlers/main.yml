@@ -1,0 +1,7 @@
+---
+# handlers file for server
+- name: "restart-apache"
+  yum:
+    name: httpd
+    state: restarted
+    enabled: true
